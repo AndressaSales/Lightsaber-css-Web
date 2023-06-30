@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+.base{
+    width: 10px;
+    height: 70px;
+    background-color: grey;
+}
+.btn{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+}
+.luz{
+    width: 10px;
+    height: 0;
+    position: absolute;
+    bottom: 388px;
+    border-radius: 12px 12px 0 0;
+
+    transition: 0.5s height;
+}
+.base:hover .luz{
+    background-color: blue;
+    box-shadow: 0 0 20px blue,
+    0 0 40px rgb(38, 38, 251),
+    0 0 60px rgb(41, 41, 240);
+    height: 150px;
+}
+.base-2{
+    width: 10px;
+    height: 70px;
+    background-color: grey;
+}
+.luz-2{
+    width: 10px;
+    height: 0;
+    position: absolute;
+    bottom: 388px;
+    border-radius: 12px 12px 0 0;
+
+    transition: 0.5s height;
+}
+.base-2:hover .luz-2{
+    background-color: red;
+    box-shadow: 0 0 40px red,
+    0 0 60px red,
+    0 0 80px red;
+    height: 150px;
+
+}
+.base-3{
+    width: 10px;
+    height: 70px;
+    background-color: grey;
+}
+.luz-3{
+    width: 10px;
+    height: 0;
+    position: absolute;
+    bottom: 388px;
+    border-radius: 12px 12px 0 0;
+
+    transition: 0.5s height; 
+}
+.base-3:hover .luz-3{
+    background-color: green;
+    box-shadow: 0 0 40px green,
+    0 0 60px green,
+    0 0 80px green;
+    height: 150px;
+}
